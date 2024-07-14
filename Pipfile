@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+transformermodels = {file = ".", editable = true}
+tox = "*"
+cython = "*"
+pandas = "*"
+pyarrow = "*"
+fastparquet = "*"
+opencv-python = "*"
+tqdm = "*"
+transformers = "*"
+scikit-learn = "*"
+scikit-image = "*"
+
+[dev-packages]
+matplotlib = "*"
+seaborn = "*"
+jupyterlab = "*"
+ipywidgets = "*"
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.8"
