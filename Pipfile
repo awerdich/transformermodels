@@ -15,6 +15,10 @@ tqdm = "*"
 transformers = "*"
 scikit-learn = "*"
 scikit-image = "*"
+numpy = "<2.0.0"
+datasets = "*"
+accelerate = "*"
+torchinfo = "*"
 
 [dev-packages]
 matplotlib = "*"
